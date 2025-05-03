@@ -30,3 +30,5 @@ include:
   - board: seeeduino_xiao_ble
     shield: lintilla_right_peripheral rgbled_adapter
     artifact-name: lintilla-right
+  - board: seeeduino_xiao_ble
+    shield: settings_reset
