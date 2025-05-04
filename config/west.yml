@@ -6,8 +6,10 @@ manifest:
       url-base: https://github.com/ctranstrum
     - name: caksoylar # <-- and this for the LED
       url-base: https://github.com/caksoylar
-    - name: englmaxi # <-- if you want a dongle
-      url-base: https://github.com/englmaxi
+    #- name: englmaxi # <-- if you want a dongle
+    #  url-base: https://github.com/englmaxi
+    - name: carrefinho                            # <--- add this
+      url-base: https://github.com/carrefinho     # <--- and this
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -19,8 +21,11 @@ manifest:
     - name: zmk-rgbled-widget # <-- and this for the LED
       remote: caksoylar
       revision: main
-    - name: zmk-dongle-display
-      remote: englmaxi
-      revision: main
+    #- name: zmk-dongle-display
+    #  remote: englmaxi
+    #  revision: main
+    - name: prospector-zmk-module                 # <--- and these
+      remote: carrefinho                          # <---
+      revision: main                              # <---
   self:
     path: config
