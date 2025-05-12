@@ -27,8 +27,10 @@ include:
     shield: lintilla_left_central rgbled_adapter
     snippet: studio-rpc-usb-uart
     artifact-name: lintilla-left
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
   - board: seeeduino_xiao_ble
     shield: lintilla_right_peripheral rgbled_adapter
     artifact-name: lintilla-right
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
   - board: seeeduino_xiao_ble
     shield: settings_reset
